@@ -15,9 +15,9 @@ function Login() {
 							<p className="font-sans ">Contraseña</p>
 							<input type="text" name="contraseña" className="password bg-[#CCDBDB] mb-4" />
 						</form>
+						<Button color="blue" children="Log in" />
 
 					</div>
-					<Button color="blue" children="Log in" />
 
 				</div>
 			</div>
