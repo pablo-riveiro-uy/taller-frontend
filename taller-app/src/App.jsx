@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import Login from './Components/login'
+
 import './App.css'
+import Login_page from './Pages/Login_page'
 
 function App() {
 
-
 	return (
 		<>
-			<div className="container ax-width: 1280px">
-				<Login />
-			</div>
+			<Login_page />
 		</>
 	)
 }
