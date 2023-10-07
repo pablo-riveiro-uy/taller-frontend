@@ -9,13 +9,16 @@ function Login() {
 				</div>
 				<div className="ventana-login flex flex-col content-center  py-6 bg-[#09B6C2] rounded-2xl border-2 border-white-800 w-full max-h-96 h-full m-11 ">
 					<div className="p-4">
-						<form action="" className="login-form font-sans text-white">
+						<form action="" className="login-form font-sans text-white mb-5">
 							<p>Correo</p>
 							<input type="text" name="correo" className=" mail bg-[#CCDBDB] mb-4" />
 							<p className="font-sans ">Contraseña</p>
 							<input type="text" name="contraseña" className="password bg-[#CCDBDB] mb-4" />
 						</form>
-						<Button color="blue" children="Log in" />
+						<div className="buttons flex flex-row gap-4 w-full justify-center">
+							<Button color="blue" children="Log in" size="normal" />
+							<Button color="gray" children="Sign in" size="normal" />
+						</div>
 
 					</div>
 
