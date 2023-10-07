@@ -9,7 +9,7 @@ export default {
 	theme: {
 		fontFamily: {
 			'font-sans': ['Inter'],
-			'serif': ['Inter']
+			'serif': ['Inter, SemiBold']
 		},
 
 		extend: {

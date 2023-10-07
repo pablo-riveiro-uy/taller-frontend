@@ -1,7 +1,7 @@
 import React from 'react'
 import Login from '../Components/login'
 
-export default function Login_page() {
+export default function PreLoginPage() {
 	return (
 		<>
 			<div className="w-screen h-screen  flex items-center  justify-center flex-row bg-cyan-100">

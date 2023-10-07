@@ -1,14 +1,23 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import './App.css';
+import PreLoginPage from './Pages/PreLoginPage'
+import Home from './Pages/Home';
+import NavBar from './Components/NavBar';
 
-import './App.css'
-import Login_page from './Pages/Login_page'
+
 
 function App() {
 
 	return (
-		<>
-			<Login_page />
-		</>
+		<BrowserRouter>
+			<NavBar />
+			<Routes>
+				<Route path="/" element={<PreLoginPage />} />
+				<Route path="/home" element={<Home />} />
+			</Routes>
+
+		</BrowserRouter>
 	)
 }
 
