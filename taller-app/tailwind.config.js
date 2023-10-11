@@ -12,6 +12,7 @@ export default {
 			'serif': ['Inter, SemiBold']
 		},
 
+
 		extend: {
 			container: {
 				padding: '1rem',
