@@ -1,2 +1,2 @@
 # taller-frontend
-Taller Front Endprueba de estructura
+Taller Front prueba de estructura
